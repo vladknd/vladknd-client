@@ -8,6 +8,10 @@ export const ExperienceContainer = styled(BaseDiv)`
     align-items: start;
     /* width: 100%; */
     height: 200vh;
+
+    @media ${devices.laptop} {
+        margin-top: 150px;
+    }
 `
 
 
@@ -133,7 +137,7 @@ export const SecondExperienceImage = styled(BaseDiv)`
     /* z-index: 5; */
 
     @media ${devices.mobileS} {
-       bottom: 15%;
+       top: 62%;
        /* right: 20%; */
        /* height: 10%; */
        /* width: 120%; */

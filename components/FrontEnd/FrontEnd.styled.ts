@@ -17,12 +17,12 @@ export const FrontEndContainer = styled(BaseDiv)`
     height: 100vh;
 
     @media ${devices.mobileS} {
-        margin-top: 20%;
+        margin-top: 45%;
 
         height: 90vh;
     }
     @media ${devices.mobileM} {
-        margin-top: 30%;
+        margin-top: 20%;
 
         height: 90vh;
     }
@@ -31,12 +31,22 @@ export const FrontEndContainer = styled(BaseDiv)`
 
         height: 90vh;
     }
+    @media ${devices.laptop} {
+        margin-top: 20%;
+
+        height: 90vh;
+    }
+    @media ${devices.laptopL} {
+        margin-top: 10%;
+
+        height: 90vh;
+    }
 `
 
 export const FrontEndContent = styled(LightBox2)`
 
     width: 80%;
-    height: 60%;
+    height: 75%;
 
     @media ${devices.mobileS} {
         
@@ -96,7 +106,7 @@ export const FrontEndTerminal = styled(BaseDiv)`
     position: absolute;
    
     @media ${devices.mobileS} {
-        bottom: 10%;
+        top: 65%;
     }
     @media ${devices.mobileM} {
         bottom: 0;
@@ -105,6 +115,7 @@ export const FrontEndTerminal = styled(BaseDiv)`
         bottom: 10%;
     }
     @media ${devices.laptop} {
+        top: 0;
         width: 50%;
         right: 0;
     }

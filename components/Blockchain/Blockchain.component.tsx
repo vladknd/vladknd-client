@@ -20,7 +20,7 @@ const BlockchainComponent = () => {
             </BlockchainText>
         </BlockchianContent>
         <BlockchainTerminal>
-            <Image src="/blockchain.svg" width={600} height={400}/>
+            <Image src="/blockchain.svg" width={800} height={600}/>
         </BlockchainTerminal>
     </BlockchainContainer>
   )

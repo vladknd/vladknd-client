@@ -14,7 +14,7 @@ export const BackEndContainer = styled(BaseDiv)`
     height: 100vh;
 
     @media ${devices.mobileS} {
-        margin-top: 20%;
+        margin-top: 30%;
 
         height: 90vh;
     }
@@ -88,7 +88,7 @@ export const BackEndTerminal = styled(BaseDiv)`
    
    @media ${devices.mobileS} {
        left: 8%;
-       bottom: 10%;
+       top: 65%;
 
        width: 85%;
    }
@@ -102,7 +102,8 @@ export const BackEndTerminal = styled(BaseDiv)`
        width: 45%;
        /* height: 50%; */
        left: 4%;
-       bottom: 22%;
+       top: -35%;
+       /* bottom: 150%; */
    }
    @media ${devices.laptopL} {
     bottom: 50%;

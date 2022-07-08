@@ -4,23 +4,21 @@ import devices from '../../styles/devices'
 
 export const BlockchainContainer = styled.div`  
     position: relative;
-    /* margin-top: 380px; */
-    
+
     width: 100%;
     height: 95vh;
 
-
     @media ${devices.mobileS} {
-
+        margin-top: 30%;
     }
     @media ${devices.mobileM} {
-        /* margin-top: 10%; */
+
     }
     @media ${devices.mobileL} {
    
     }
     @media ${devices.laptop} {
-        /* margin-top: 80px; */
+        margin-top: 0%;
     }
 `
 
@@ -71,32 +69,26 @@ export const BlockchainTerminal = styled(BaseDiv)`
     left: 0;
     margin-left: auto;
     margin-right: auto;
-    /* transform: translate(50%, -10%); */
+
    @media ${devices.mobileS} {
        bottom: 10%;
        width: 300px;
    }
    @media ${devices.mobileM} {
        left: 1%;
-
        width: 350px;
    }
    @media ${devices.mobileL} {
-       /* left: 15%; */
        bottom: 2%;
-
        width: 350px;
        
    }
-
    @media ${devices.laptop} {
-       /* top: 40%; */
-       /* width: 50%; */
-       /* transform: translate(70%, -10%); */
-       /* width: 2%; */
+       top: 45%;
        width: 600px;
    }
    @media ${devices.laptopL} {
-        /* width: 20%; */
+        width: 50%;
+        top: 35%;
    }
 `

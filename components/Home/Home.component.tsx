@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { DarkBoxClick, LightBoxClick, Text } from '../../styles/Components.styled'
 import { 
@@ -28,24 +29,32 @@ const HomeHeader = () => {
             </HomeHeaderTexts>
             <HomeHeaderButtons>
                 <SMButtons>
-                    <SMButton mr={10} mb={10}>
-                        <Image src="/github.svg" width={40} height={40}/>
-                    </SMButton>
-
-                    <SMButton mr={10} mb={10}>
-                        <Image src="/linkedin.svg" width={40} height={40}/>
-                    </SMButton>
+                    <Link href="https://github.com/vladknd">
+                        <SMButton mr={10} mb={10}>
+                            <Image src="/github.svg" width={40} height={40}/>
+                        </SMButton>
+                    </Link>
+                    
+                    <Link href="https://www.linkedin.com/in/vlad-voznitsa-42134b135">
+                        <SMButton mr={10} mb={10}>
+                            <Image src="/linkedin.svg" width={40} height={40}/>
+                        </SMButton>
+                    </Link>
                 </SMButtons>
 
-                <Resume mr={10} mb={10}>
-                    RESUME
-                    <Image src="/download.svg" width={20} height={20}/>
-                </Resume>
+                <Link href="https://drive.google.com/file/d/1ot6rnOJ0PNYelnPAZv8Hs25e_BHO8h9n/view?usp=sharing">
+                    <Resume mr={10} mb={10}>
+                        RESUME
+                        <Image src="/download.svg" width={20} height={20}/>
+                    </Resume>
+                </Link>
 
+                <Link href="https://mail.google.com/mail/u/0/?fs=1&to=voznitsa98@gmail.com&su=Job+offer&tf=cm">
                 <Mail mr={10} mb={10}>
                     voznitsa98@gmail.com
                     <Image src="/send.svg" width={30} height={30}/>
                 </Mail>
+                </Link>
             </HomeHeaderButtons>
         </HomeHeaderContainer>
     )
