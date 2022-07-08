@@ -10,6 +10,9 @@ export const EducationContainer = styled(BaseDiv)`
 `
 
 export const EducationContent = styled(DarkBox2)`
+    display: flex;
+    flex-direction: column;
+
     width: 80%;
     height: 80%;
 `
@@ -32,7 +35,8 @@ export const EducationHeader = styled(HeaderText)`
 `
 
 export const EducationText = styled(Text)`
-    padding-top: 12%;
+    /* padding-top: 40%; */
+    margin-top: 20px;
     padding-left: 5%;
 
     width: 100%;
@@ -51,6 +55,12 @@ export const EducationText = styled(Text)`
 `
 
 export const EducationImages = styled(BaseDiv)`
+    padding: 20px;
+    
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+
 `

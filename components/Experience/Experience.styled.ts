@@ -55,6 +55,14 @@ export const FirstExperienceText = styled(HeaderText)`
 export const FirstExperienceImage = styled(BaseDiv)`
    position: absolute;
    z-index: 1;
+
+   filter: drop-shadow(3px 8px 20px rgba(0, 0, 0, 0.85));
+
+    &:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
+
    @media ${devices.mobileS} {
        /* top: 80%; */
        bottom: 15%;
@@ -135,6 +143,11 @@ export const SecondExperienceText = styled(HeaderText)`
 export const SecondExperienceImage = styled(BaseDiv)`
     position: absolute;
     /* z-index: 5; */
+
+    &:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
 
     @media ${devices.mobileS} {
        top: 62%;

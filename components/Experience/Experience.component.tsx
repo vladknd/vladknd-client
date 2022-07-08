@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { ExperienceContainer, FirstExperience, FirstExperienceContent, FirstExperienceHeader, FirstExperienceImage, FirstExperienceText, SecondExperience, SecondExperienceContent, SecondExperienceHeader, SecondExperienceImage, SecondExperienceText } from './Experience.styled'
 
@@ -14,9 +15,11 @@ const ExperienceComponent = () => {
                 </FirstExperienceText>
             </FirstExperienceContent>
 
-            <FirstExperienceImage>
-                <Image src="/orbeem.svg" width={800} height={800}/>
-            </FirstExperienceImage>
+            <Link href="https://www.orbeem.store">
+                <FirstExperienceImage>
+                    <Image src="/orbeem.svg" width={800} height={800}/>
+                </FirstExperienceImage>
+            </Link>
         </FirstExperience>
 
         <SecondExperience>
@@ -26,9 +29,11 @@ const ExperienceComponent = () => {
                 </SecondExperienceText>
             </SecondExperienceContent>
 
-            <SecondExperienceImage>
-                <Image src="/finsfera.png" unoptimized={true} width={1800} height={1300}/>
-            </SecondExperienceImage>
+            <Link href="https://finsfera.ua/">
+                <SecondExperienceImage>
+                    <Image src="/finsfera.png" unoptimized={true} width={1800} height={1300}/>
+                </SecondExperienceImage>
+            </Link>
         </SecondExperience>
     </ExperienceContainer>
   )

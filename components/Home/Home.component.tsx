@@ -64,13 +64,13 @@ const HomeContent = () => {
     return (
         <HomeContentContainer>
             <LightButtons>
-                <LightButton mr={10}>
+                {/* <LightButton mr={10}>
                     EMPLOYERS
-                </LightButton>
+                </LightButton> */}
 
-                <LightButton>
+                {/* <LightButton>
                     CLIENTS
-                </LightButton>
+                </LightButton> */}
             </LightButtons>
             <HomeContentText>
                 Hello, I’m Vlad, full-stack blockchain developer. I build server and client side software using TypeScript and write smart-contracts in Solidity.
