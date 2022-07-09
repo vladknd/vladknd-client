@@ -45,20 +45,22 @@ export const BlockchainText = styled(Text)`
     width: 85%;
     
     font-size: 18px;
-
+    opacity: 0.7;
     line-height: 25px;
     letter-spacing: 2px;
 
     @media ${devices.laptop} {
         padding-top: 6%;
-        width: 60%;
+        width: 80%;
 
-        line-height: 30px;
-        letter-spacing: 2px;
-        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 4px;
+        font-size: 24px;
     }
     @media ${devices.laptopL} {
-       
+        line-height: 40px;
+        letter-spacing: 4px;
+        font-size: 28px;
     }
 `
 

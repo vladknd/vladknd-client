@@ -33,23 +33,25 @@ export const FirstExperienceHeader = styled(HeaderText)`
 export const FirstExperienceText = styled(HeaderText)`
     padding-top: 12%;
     padding-left: 5%;
-    width: 70%;
+    width: 50%;
     
     font-size: 18px;
-
+    opacity: 0.7;
     line-height: 25px;
     letter-spacing: 2px;
 
     @media ${devices.laptop} {
         padding-top: 6%;
-        width: 60%;
+        width: 50%;
 
-        line-height: 30px;
-        letter-spacing: 2px;
-        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 3px;
+        font-size: 28px;
     }
     @media ${devices.laptopL} {
-       
+        line-height: 40px;
+        letter-spacing: 3px;
+        font-size: 28px;
     }
 `       
 export const FirstExperienceImage = styled(BaseDiv)`
@@ -117,27 +119,31 @@ export const SecondExperienceContent = styled(DarkBox2)`
 `
 export const SecondExperienceText = styled(HeaderText)`
     padding-top: 30%;
-    padding-left: 10%;
+    padding-left: 80%;
     width: 70%;
     
     font-size: 18px;
-
+    opacity: 0.7;
     line-height: 25px;
     letter-spacing: 2px;
 
     
     @media ${devices.laptop} {
         padding-top: 3%;
-        padding-left: 25%;
-        width: 70%;
+        padding-left: 35%;
+        width: 100%;
 
         line-height: 30px;
         letter-spacing: 2px;
         font-size: 20px;
     }
     @media ${devices.laptopL} {
-        padding-left: 18%;
-        width: 80%;
+        padding-left: 30%;
+        width: 100%;
+
+        line-height: 40px;
+        letter-spacing: 3px;
+        font-size: 25px;
     }
 `
 export const SecondExperienceImage = styled(BaseDiv)`

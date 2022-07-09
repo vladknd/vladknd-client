@@ -56,7 +56,7 @@ export const BackEndText = styled(Text)`
     width: 90%;
     
     font-size: 18px;
-
+    opacity: 0.7;
     line-height: 24px;
     letter-spacing: 2px;
 
@@ -74,12 +74,14 @@ export const BackEndText = styled(Text)`
         padding-top: 6%;
         width: 60%;
 
-        line-height: 30px;
-        letter-spacing: 2px;
-        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 3px;
+        font-size: 28px;
     }
     @media ${devices.laptopL} {
-       
+        line-height: 40px;
+        letter-spacing: 3px;
+        font-size: 28px;
     }
 `
 

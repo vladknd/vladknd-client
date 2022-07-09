@@ -74,8 +74,9 @@ export const FrontEndHeader = styled(HeaderText)`
 export const FrontEndText = styled(Text)`
     padding-top: 14%;
     padding-left: 9%;
+
     width: 90%;
-    
+    opacity: 0.6;
     font-size: 18px;
 
     line-height: 22px;
@@ -94,12 +95,14 @@ export const FrontEndText = styled(Text)`
         padding-top: 6%;
         width: 60%;
 
-        line-height: 30px;
-        letter-spacing: 2px;
-        font-size: 20px;
+        line-height: 40px;
+        letter-spacing: 3px;
+        font-size: 24px;
     }
     @media ${devices.laptopL} {
-       
+        line-height: 40px;
+        letter-spacing: 3px;
+        font-size: 28px;
     }
 `
 export const FrontEndTerminal = styled(BaseDiv)`
