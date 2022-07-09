@@ -10,8 +10,8 @@ const ExperienceComponent = () => {
             <FirstExperienceContent>
                 <FirstExperienceHeader>EXPERIENCE</FirstExperienceHeader>
                 <FirstExperienceText>
-                    I developed a Play-to-Earn platform from scratch. 
-                    I built main-app with NFT-marketplace and play-to-earn elements(connected to steam games), landing page, utility and governance tokens. I connected all parts of the project and deployed it.
+                ORBEEM (Polygon, Node.js, React) - P2E platform with NFT Marketplace allowing users to get tokens for achievements in eSports(Dota2). <br/> <br/>
+I developed: <br/> a landing page of the project  with a governance token(ERC20), <br/> main app of the project with Marketplace and game  logic, user authorization and authentication.
                 </FirstExperienceText>
             </FirstExperienceContent>
 

@@ -36,7 +36,7 @@ export const EducationHeader = styled(HeaderText)`
 
 export const EducationText = styled(Text)`
     /* padding-top: 40%; */
-    margin-top: 20px;
+    margin-top: 55px;
     padding-left: 5%;
 
     width: 100%;
@@ -50,7 +50,7 @@ export const EducationText = styled(Text)`
     }
     @media ${devices.laptopL} {
         padding-top: 4%;
-        font-size: 18px;
+        font-size: 28px;
     }
 `
 

@@ -61,14 +61,17 @@ export const BackEndText = styled(Text)`
     letter-spacing: 2px;
 
     @media ${devices.mobileS} {
-        
+        font-size: 15px;
     }
     @media ${devices.mobileM} {
         padding-left: 5%;
-        font-size: 15px;
+        
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 2px;
     }
     @media ${devices.mobileL} {
-        
+        font-size: 15px;
     }
     @media ${devices.laptop} {
         padding-top: 6%;

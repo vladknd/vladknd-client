@@ -24,7 +24,7 @@ export const FirstExperience = styled(BaseDiv)`
 `
 export const FirstExperienceContent = styled(DarkBox2)`
     /* margin: 0; */
-    width: 80%;
+    width: 100%;
     height: 100%;
 `
 export const FirstExperienceHeader = styled(HeaderText)`
@@ -33,13 +33,28 @@ export const FirstExperienceHeader = styled(HeaderText)`
 export const FirstExperienceText = styled(HeaderText)`
     padding-top: 12%;
     padding-left: 5%;
-    width: 50%;
+    width: 90%;
     
-    font-size: 18px;
+    font-size: 15px;
     opacity: 0.7;
     line-height: 25px;
     letter-spacing: 2px;
 
+    @media ${devices.mobileS} {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+    @media ${devices.mobileM} {
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 3px;
+    }
+    @media ${devices.mobileL} {
+        font-size: 22px;
+        line-height: 40px;
+        letter-spacing: 3px;
+    }
     @media ${devices.laptop} {
         padding-top: 6%;
         width: 50%;
@@ -120,14 +135,23 @@ export const SecondExperienceContent = styled(DarkBox2)`
 export const SecondExperienceText = styled(HeaderText)`
     padding-top: 30%;
     padding-left: 80%;
-    width: 70%;
+    width: 90%;
     
     font-size: 18px;
     opacity: 0.7;
     line-height: 25px;
     letter-spacing: 2px;
 
-    
+    @media ${devices.mobileS}{
+        padding-left: 5%;
+        /* font-size: 18px; */
+    }
+    @media ${devices.mobileM}{
+        padding-left: 5%;
+    }
+    @media ${devices.mobileL}{
+        padding-left: 5%;
+    }
     @media ${devices.laptop} {
         padding-top: 3%;
         padding-left: 35%;

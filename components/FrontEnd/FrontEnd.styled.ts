@@ -83,13 +83,15 @@ export const FrontEndText = styled(Text)`
     letter-spacing: 2px;
 
     @media ${devices.mobileS} {
-        
-    }
-    @media ${devices.mobileM} {
         font-size: 15px;
     }
+    @media ${devices.mobileM} {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
     @media ${devices.mobileL} {
-        
+        font-size: 15px;
     }
     @media ${devices.laptop} {
         padding-top: 6%;

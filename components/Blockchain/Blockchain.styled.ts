@@ -49,13 +49,24 @@ export const BlockchainText = styled(Text)`
     line-height: 25px;
     letter-spacing: 2px;
 
+    @media ${devices.mobileS} {
+        font-size: 15px;
+    }
+    @media ${devices.mobileM} {
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+    @media ${devices.mobileL} {
+        font-size: 15px;
+    }
     @media ${devices.laptop} {
         padding-top: 6%;
         width: 80%;
 
         line-height: 40px;
         letter-spacing: 4px;
-        font-size: 24px;
+        font-size: 28px;
     }
     @media ${devices.laptopL} {
         line-height: 40px;
